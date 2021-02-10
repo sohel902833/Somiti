@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000"
+    android:layout_height="match_parent"
+    tools:context=".AbouteActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/img"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/leader"
+        android:layout_above="@+id/start_EmailEdittextid"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/edittext_background"
+        android:padding="15dp"
+        android:textSize="19sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Total Balance : 950"
+        android:id="@+id/aboute_TotalBalanceTextviewid"
+        />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/edittext_background"
+        android:padding="15dp"
+        android:textSize="19sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Total Balance : 950"
+        android:id="@+id/aboute_TotalMembersTextviewid"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

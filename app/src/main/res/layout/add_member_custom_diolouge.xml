@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000"
+     android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diolougeTextview"
+        android:text="Add New Member"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:textSize="23sp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diolouge_MembernameEdittextid"
+        android:layout_below="@+id/diolougeTextview"
+        android:hint="Name"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diolouge_MemberPhoneEdittextid"
+        android:layout_below="@+id/diolouge_MembernameEdittextid"
+        android:hint="Mobile"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_below="@+id/diolouge_MemberPhoneEdittextid"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_background"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:id="@+id/memberSaveButtonid"
+        android:layout_marginTop="11dp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+
+
+</RelativeLayout>

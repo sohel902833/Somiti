@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000"
+     android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paiddiolougeTextview"
+        android:text="Add New Member"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diolouge_AmountEdittextid"
+        android:layout_below="@+id/paiddiolougeTextview"
+        android:hint="Amount"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="18sp"
+        android:text="30"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paid"
+        android:layout_below="@+id/diolouge_AmountEdittextid"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_background"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:id="@+id/diolougePaidButtonid"
+        android:layout_marginTop="11dp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+
+
+</RelativeLayout>

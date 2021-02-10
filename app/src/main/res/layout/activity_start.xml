@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".StartActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/img"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/leader"
+        android:layout_above="@+id/start_EmailEdittextid"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:hint="Enter Your Email"
+        android:id="@+id/start_EmailEdittextid"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/start_EmailEdittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:id="@+id/start_PasswordEdittextid"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:hint="Enter Your Pasword"
+        />
+
+
+
+    <Button
+        android:id="@+id/start_LoginButtonid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_PasswordEdittextid"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_background"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="21sp"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

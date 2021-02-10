@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="5dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/edittext_background"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+
+        android:text="Md Sohrab Hossain Sohel"
+        android:fontFamily="casual"
+        android:textColor="#fff"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userlist_nameTextViewid"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+
+        />
+    <Button
+        android:layout_marginTop="4dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/userlist_nameTextViewid"
+        android:id="@+id/userList_PaidButtonid"
+        android:text="Paid"
+        android:textColor="#fff"
+        android:background="#123702"
+        android:textAllCaps="false"
+        android:layout_marginLeft="5dp"
+        />
+
+
+
+
+</RelativeLayout>
